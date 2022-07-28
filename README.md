@@ -1,2 +1,7 @@
-# aws_codingschool_github
-Repo for AWS Coding School
+# About
+
+This is the training repository for the AWS coding school.
+
+## Tasks
+
+Insert cool tasks here 
