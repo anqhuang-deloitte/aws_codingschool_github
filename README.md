@@ -36,7 +36,7 @@ We want to commit & push a new local branch to the remote repository from comman
 
 1. Go to your Cloud9 Lab.
 2. Fetch differences with ```git fetch```. Try to understand the output.
-3. Pull the differences. ```git pull```
+3. Pull the differences with ```git pull```. 
 4. Create a local branch with the name ```feature/<my_first_name>-info``` from your local main branch. Use this command: ```git checkout -b feature/<my_first_name>-info``` to create a new local branch and switch to it.
 5. Add your personal information "Name, Fun fact about me, spirit animal" in the file ```team.md```
 6. Save your changes using CTRL+S.
@@ -62,8 +62,7 @@ We want to merge our remote branch  ```feature/<my_first_name-main>``` into remo
 
 1. Create a pull request ```feature/<my_first_name>-main``` into ```main``` 
 2. Resolve the merge conflict. Hint: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github
-3. Request anqhuang-deloitte as a reviewer.
-4. Paste your pull request link into the Zoom chat.
+3. Merge your pull request.
 
 ### Task 6
 
