@@ -35,15 +35,16 @@ Replace ```<my_first_name>``` with your first name. For instance: ```feature/anq
 We want to commit & push a new local branch to the remote repository from command line with changes.
 
 1. Go to your Cloud9 Lab.
-2. Fetch differences. Try to understand the output.
-3. Pull the differences.
-4. Create a local branch with the name ```feature/<my_first_name>-info``` from your local main branch.
-5. Switch to this new created local branch.
-6. Add your personal information "Name, Fun fact about me, spirit animal" in the file ```team.md```
-7. Save your changes.
-8. Add the changes to the staging area.
-9. Commit your changes with a short message.
-10. Push your local branch to the remote repository.
+2. Fetch differences with ```git fetch```. Try to understand the output.
+3. Pull the differences. ```git pull```
+4. Create a local branch with the name ```feature/<my_first_name>-info``` from your local main branch. Use this command: ```git checkout -b feature/<my_first_name>-info``` to create a new local branch and switch to it.
+5. Add your personal information "Name, Fun fact about me, spirit animal" in the file ```team.md```
+6. Save your changes using CTRL+S.
+7. Add the changes to the staging area using ```git add .```
+8. Check the staged files in the repository tab of Cloud9.
+9. If you are satisfied with your changes, commit them with a short message. Use this command: ```git commit -m "insert your commit message here"```
+10. If you are asked for your authentication, enter your **github username** and as **password** enter your saved **personal access token**.
+11. Push your local branch to the remote repository.
 
 ### Task 4
 
@@ -73,7 +74,7 @@ We want to define a .gitignore file and push the applied changes to the remote b
 3. Pull differences.
 4. Create a local branch with the name ```feature/<my_first_name>-gitignore``` from your local main branch.
 5. Switch to this new created local branch.
-6. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars (5) every outputs.tf file in terraform folder 
+6. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars
 7. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden.
 8. Save changes.
 9. Stage changes.
