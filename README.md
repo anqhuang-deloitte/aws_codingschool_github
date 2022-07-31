@@ -25,7 +25,9 @@ We want to clone the repository locally on our machine.
 ### Task 2
 
 Create a new remote branch with the name: ```feature/<my_first_name>-main```  from main branch via Github GUI.
+
 Hint: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+
 Replace ```<my_first_name>``` with your first name. For instance: ```feature/anqi-main```
 
 ### Task 3
