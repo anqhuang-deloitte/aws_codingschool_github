@@ -70,56 +70,78 @@ We want to merge our remote branch  ```feature/<my_first_name-main>``` into remo
 
 We want to define a .gitignore file and push the applied changes to the remote branch.
 
-1. Switch to local main branch. 
+1.Switch to local main branch. 
 <details>
   <summary>Show command</summary>
+
   ```
   git checkout main
   ```
+
 </details>
 2. Fetch differences.
 <details>
   <summary>Show command</summary>
+  
   ```
   git fetch
   ```
+
 </details>
 3. Pull differences.
 <details>
   <summary>Show command</summary>
+  
   ```
   git pull
   ```
+
 </details>
 4. Create a local branch with the name ```feature/<my_first_name>-gitignore``` from your local main branch.
 <details>
   <summary>Show command</summary>
+  
   ```
   git checkout -b feature/<my_first_name>-gitignore
   ```
+
 </details>
 5. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars
-6. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden.
+6. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden. Hint: https://ralphjsmit.com/apply-gitignore-to-exisiting-repository
+<details>
+  <summary>Show command</summary>
+  
+  ```
+  git rm -r --cached .
+  ```
+
+</details>
 7. Save changes.
 8. Stage changes.
 <details>
   <summary>Show command</summary>
+  
   ```
   git checkout -b feature/<my_first_name>-gitignore
   ```
+
 </details>
 9.  Commit changes.
 <details>
   <summary>Show command</summary>
+  
   ```
   git commit -m "my nice informative commit message"
   ```
+
 </details>
 10. Push this local branch to the remote repository.
 <details>
   <summary>Show command</summary>
+  
   ```
   git push
   ```
+
 </details>
 11. Start a pull request ```feature/<my_first_name>-gitignore``` into ```main``` . Check the differences.
