@@ -12,9 +12,9 @@ We want to clone the repository locally on our machine.
 
 1. Login to your github account.
 2. Paste your github account name or github email address into the Zoom chat.
-3. You should get an invitation to the repo.
+3. You should get an invitation to the repo (via email). Please accept it.
 4. Create a personal access token and save this token.
-5. Open Cloud 9 Lab 
+5. Open Cloud 9 Lab in Course 116-[PF]-Lab - Create a git repository.
 6. Create a folder "github_repos".
 7. Clone your repository inside of this new created folder.
 8. Fetch the differences.
@@ -24,7 +24,9 @@ We want to clone the repository locally on our machine.
 
 ### Task 2
 
-Create a new remote branch ```feature/<my_first_name>-main```  from main branch via Github GUI.
+Create a new remote branch with the name: ```feature/<my_first_name>-main```  from main branch via Github GUI.
+Hint: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+Replace ```<my_first_name>``` with your first name. For instance: ```feature/anqi-main```
 
 ### Task 3
 
@@ -46,7 +48,7 @@ We want to commit & push a new local branch to the remote repository from comman
 We want to merge our remote feature branch into the main branch.
 
 1. Go to the remote Github repository.
-2. Create a pull request ```feature/<my_first_name>-info``` into your created remote branch from task 2 ```feature/<my_first_name-main>``` .
+2. Create a pull request (PR) ```feature/<my_first_name>-info``` into your created remote branch from task 2 ```feature/<my_first_name-main>``` . :warning: **Take care that you don't open a PR with branches of another one. Double check it.** :warning:
 3. Check the differences.
 4. Merge the Pull Request.
 5. Delete the merged branch ```feature/<my_first_name>-info```.
@@ -71,8 +73,8 @@ We want to define a .gitignore file and push the applied changes to the remote b
 5. Switch to this new created local branch.
 6. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars (5) every outputs.tf file in terraform folder 
 7. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden.
-8. Save changes
-9. Stage changes
-10. Commit changes
+8. Save changes.
+9. Stage changes.
+10. Commit changes.
 11. Push this local branch to the remote repository.
 12. Start a pull request ```feature/<my_first_name>-gitignore``` into ```main``` . Check the differences.
