@@ -110,7 +110,7 @@ We want to define a .gitignore file and push the applied changes to the remote b
 
 </details>
 
-5. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars
+5. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars . Hint: https://git-scm.com/docs/gitignore 
 
 6. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden. Hint: https://ralphjsmit.com/apply-gitignore-to-exisiting-repository
 <details>
