@@ -10,4 +10,10 @@ Hint: Complete list of github markdown emoji markup: https://gist.github.com/rxa
 
 - Name: <Insert First Name, Last Name here>
 - Fun fact about me: <Insert Fun fact here>
-- My spirit animal: <Insert text or animal emoji here>
+
+
+
+
+- Name: Ievgenii Zakharchenko
+- Fun fact about me: like to play chess
+- My spirit animal koala
