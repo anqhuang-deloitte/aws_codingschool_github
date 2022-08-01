@@ -9,5 +9,5 @@ Hint: Complete list of github markdown emoji markup: https://gist.github.com/rxa
 - My spirit animal: :panda_face:
 
 - Name: Berty Briker
-- Fun fact about me: I love pizza with pineapples (sorry)
+- Fun fact about me: I love pizza with pineapples :pizza: :pineapple: (sorry)
 - My spirit animal: Yellow rubber ducks
