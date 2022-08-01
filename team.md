@@ -10,7 +10,7 @@ Hint: Complete list of github markdown emoji markup: https://gist.github.com/rxa
 
 - Name: Yorzh Yevhen
 - Fun fact about me: I adore to listen piano players in live
-- My spirit animal: a delphine
+- My spirit animal:  :dolphin:
 
 - Name: <Insert First Name, Last Name here>
 - Fun fact about me: <Insert Fun fact here>
