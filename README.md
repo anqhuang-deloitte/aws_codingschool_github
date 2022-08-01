@@ -38,7 +38,7 @@ We want to commit & push a new local branch to the remote repository from comman
 2. Fetch differences with ```git fetch```. Try to understand the output.
 3. Pull the differences with ```git pull```. 
 4. Create a local branch with the name ```feature/<my_first_name>-info``` from your local main branch. Use this command: ```git checkout -b feature/<my_first_name>-info``` to create a new local branch and switch to it.
-5. Add your personal information "Name, Fun fact about me, spirit animal" in the file ```team.md```
+5. Add your personal information "Name, Fun fact about me, spirit animal" in the file ```team.md``` **below** the information about "Anqi Huang".
 6. Save your changes using CTRL+S.
 7. Add the changes to the staging area using ```git add .```
 8. Check the staged files in the repository tab of Cloud9.
@@ -46,14 +46,16 @@ We want to commit & push a new local branch to the remote repository from comman
 10. Set your email address with ```git config --global user.email "MY_NAME@example.com"```
 11. If you are satisfied with your changes, commit them with a short message. Use this command: ```git commit -m "insert your commit message here"```
 12. If you are asked for your authentication, enter your **github username** and as **password** enter your saved **personal access token**.
-13. Push your local branch to the remote repository with git push.
+13. Push your local branch to the remote repository with git push using ```git push```.
+14. You will get an error message: In order to push the current branch you need to set the remote branch as upstream, use the suggested command ```git push --set-upstream origin feature/fixcode```
+15. Try it again: Push your local branch to the remote repository with git push using ```git push```.
 
 ### Task 4
 
 We want to merge our remote feature branch into the main branch.
 
 1. Go to the remote Github repository.
-2. Create a pull request (PR) ```feature/<my_first_name>-info``` into your created remote branch from task 2 ```feature/<my_first_name-main>``` . :warning: **Take care that you don't open a PR with branches of another one. Double check it.** :warning:
+2. Create a pull request (PR) ```feature/<my_first_name>-info``` into your created remote branch from task 2 ```feature/<my_first_name-main>``` . :warning: **Take care that you don't open a PR with branches of another participant. Double check it on the top of the PR.** :warning:
 3. Check the differences.
 4. Merge the Pull Request.
 5. Delete the merged branch ```feature/<my_first_name>-info```.
@@ -71,87 +73,13 @@ We want to merge our remote branch  ```feature/<my_first_name-main>``` into remo
 We want to define a .gitignore file and push the applied changes to the remote branch.
 
 1. Switch to local main branch. 
-<details>
-  <summary>Show command</summary>
-
-  ```
-  git checkout main
-  ```
-
-</details>
-
 2. Fetch differences.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git fetch
-  ```
-
-</details>
-
 3. Pull differences.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git pull
-  ```
-
-</details>
-
-4. Create a local branch with the name ```feature/<my_first_name>-gitignore``` from your local main branch.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git checkout -b feature/<my_first_name>-gitignore
-  ```
-
-</details>
-
+4. Create a local branch with the name ```feature/<my_first_name>-gitignore``` from your local main branch and switch to this branch.
 5. Create a .gitignore folder. The goal is to hide (1) buildspec.yaml file (2) every python file (3) whole test folder (4) every file starts with "backend" in its name and which are files with format .tvars . Hint: https://git-scm.com/docs/gitignore 
-
-6. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden. Hint: https://ralphjsmit.com/apply-gitignore-to-exisiting-repository
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git rm -r --cached .
-  ```
-
-</details>
-
+6. Find out how to apply .gitignore changes instantly, because we want to commit & push a clean repo where all the files/folders listed in .gitignore are hidden. Hint: You can google for it or you can use this source: https://ralphjsmit.com/apply-gitignore-to-exisiting-repository
 7. Save changes.
-
 8. Stage changes.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git checkout -b feature/<my_first_name>-gitignore
-  ```
-
-</details>
-
 9.  Commit changes.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git commit -m "my nice informative commit message"
-  ```
-
-</details>
-
-10. Push this local branch to the remote repository.
-<details>
-  <summary>Show command</summary>
-  
-  ```
-  git push
-  ```
-
-</details>
-
+10. Push this local branch to the remote repository. (Set the remote branch as upstream before)
 11. Start a pull request ```feature/<my_first_name>-gitignore``` into ```main``` . Check the differences.
