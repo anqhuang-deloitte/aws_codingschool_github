@@ -8,6 +8,10 @@ Hint: Complete list of github markdown emoji markup: https://gist.github.com/rxa
 - Fun fact about me: I am addicted to dishes with coriander :heart_eyes:
 - My spirit animal: :panda_face:
 
+- Name: Serhii Ruban
+- Fun fact about me: I'm learning Python
+- My spirit animal: :beaver_face:
+
 - Name: Berty Briker
 - Fun fact about me: I love pizza with pineapples (sorry)
 - My spirit animal: Yellow rubber ducks
