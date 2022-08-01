@@ -11,3 +11,11 @@ Hint: Complete list of github markdown emoji markup: https://gist.github.com/rxa
 - Name: Serhii Ruban
 - Fun fact about me: I'm learning Python
 - My spirit animal: :beaver_face:
+
+- Name: Berty Briker
+- Fun fact about me: I love pizza with pineapples (sorry)
+- My spirit animal: Yellow rubber ducks
+
+- Name: Sebastian Schneider
+- Fun fact about me: I am a passionate grdener
+- My spirit animal: :fish:
