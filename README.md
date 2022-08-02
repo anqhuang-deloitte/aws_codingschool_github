@@ -47,12 +47,12 @@ We want to commit & push a new local branch to the remote repository from comman
 11. If you are satisfied with your changes, commit them with a short message. Use this command: ```git commit -m "insert your commit message here"```
 12. If you are asked for your authentication, enter your **github username** and as **password** enter your saved **personal access token**.
 13. Push your local branch to the remote repository with git push using ```git push```.
-14. You will get an error message: In order to push the current branch you need to set the remote branch as upstream, use the suggested command ```git push --set-upstream origin feature/fixcode```
+14. You will get an error message: In order to push the current branch you need to set the remote branch as upstream, use the suggested command ```git push --set-upstream origin feature/<my_first_name>-info```
 15. Try it again: Push your local branch to the remote repository with git push using ```git push```.
 
 ### Task 4
 
-We want to merge our remote feature branch into the main branch.
+We want to merge our remote feature info-branch into the remote feature main-branch.
 
 1. Go to the remote Github repository.
 2. Create a pull request (PR) ```feature/<my_first_name>-info``` into your created remote branch from task 2 ```feature/<my_first_name-main>``` . :warning: **Take care that you don't open a PR with branches of another participant. Double check it on the top of the PR.** :warning:
